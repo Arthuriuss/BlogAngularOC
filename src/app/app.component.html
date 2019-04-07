@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Bienvenue sur le {{ title }}!
+  </h1>
+  <img width="300" alt="OC Logo" src="assets/img/logo_openclassroom.png">
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>Liste des posts</h2>
+
+      <!-- <p>{{ lastUpdate | async | date: 'short' | uppercase }}</p> -->
+
+      <app-postlist></app-postlist>
+      <!-- <button class="btn-success" [disabled]="!isAuth" (click)="onAllumer()">Allumer tout</button> -->
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
