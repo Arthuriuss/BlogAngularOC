@@ -11,10 +11,8 @@
     <div class="col-xs-12">
       <h2>Liste des posts</h2>
 
-      <!-- <p>{{ lastUpdate | async | date: 'short' | uppercase }}</p> -->
+      <app-postlist [posts]="posts"></app-postlist>
 
-      <app-postlist></app-postlist>
-      <!-- <button class="btn-success" [disabled]="!isAuth" (click)="onAllumer()">Allumer tout</button> -->
     </div>
   </div>
 </div>
